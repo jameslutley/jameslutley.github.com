@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title | strip_html }} - {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
+  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}<meta name="viewport" content="width=device-width, initial-scale=1">
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}<link rel="canonical" href="{{ canonical }}">
+  <link href="{{ root_url }}/favicon.ico" rel="shortcut icon">
+  <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="{{ root_url }}/stylesheets/screen.css" rel="stylesheet">
+  <link href="{{ root_url }}/stylesheets/widescreen.css" rel="stylesheet" media="screen and (min-width: 45em)">
+  {% if page.style %}<link href="{{ root_url }}/stylesheets/art-direction/{{ page.style }}" rel="stylesheet">{% endif %}
+  <script src="//use.typekit.net/qlz5kkl.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+</head>

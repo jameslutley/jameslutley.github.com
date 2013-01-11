@@ -1,0 +1,30 @@
+{% unless page.no_header %}
+  <header>
+    {% unless page.meta == false %}
+      <p class="meta">
+        {% include post/date.html %}{{ time }}
+        {% if site.disqus_short_name and post.comments != false and site.disqus_show_comment_count == true %}
+
+         | <a class="disqus-link" href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+        {% endif %}
+        | <a class="rss-feed" href="http://feeds.feedburner.com/jameslutley">RSS Feed</a>
+      </p>
+    {% endunless %}
+    {% if index %}
+      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h1>
+    {% else %}
+      <h1 class="entry-title">{{ page.title }}</h1>
+    {% endif %}
+  </header>
+{% endunless %}
+{% if index %}
+  <div class="entry-content">{{ content | excerpt }}</div>
+  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+  {% if excerpted == 'true' %}
+    <footer>
+      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+    </footer>
+  {% endif %}
+{% else %}
+<div class="entry-content">{{ content }}</div>
+{% endif %}
