@@ -1,0 +1,46 @@
+@import "compass";
+
+// Main Section Colors
+$main-bg: whiteSmoke !default;
+$border: 4px double rgba(0, 0, 0, .1) !default;
+
+$text-color: #444 !default;
+$text-color-dark: #333 !default;
+$text-color-darkest: #101010 !default;
+$text-color-light: #888 !default;
+
+// Main Link Colors
+$link-color: #bada55 !default;
+$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
+$link-color-visited: $link-color !default;
+$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
+$link-color-nav: adjust-color($link-color, $lightness: 5, $saturation: 50) !default;
+
+// Fonts
+$serif: "freight-text-pro", Georgia, "Times New Roman", serif !default;
+$sans: "Helvetica Neue", Arial, sans-serif !default;
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+
+
+/* Background */
+body {
+  background-color: $main-bg;
+}
+
+/* Links */
+a {
+  @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
+}
+
+.entry-title a em, .entry-title em, .entry-title a span, .entry-title span {
+  color: $link-color;
+}
+
+/* Selection */
+::-moz-selection {
+  background: $link-color;
+}
+
+::selection {
+  background: $link-color;
+}
