@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="dns-prefetch" href="//use.typekit.net">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="//disqus.com">
+  <link rel="dns-prefetch" href="//mediacdn.disqus.com">
+  <link rel="dns-prefetch" href="//www.gravatar.com">
   <title>{% if page.title %}{{ page.title | strip_html }} - {% endif %}{{ site.title }} - {{ site.subtitle }}</title>
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}<meta name="viewport" content="width=device-width, initial-scale=1">
