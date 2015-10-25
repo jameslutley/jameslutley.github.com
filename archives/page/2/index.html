@@ -11,7 +11,7 @@
   <link rel="dns-prefetch" href="//www.gravatar.com">
   <link rel="preconnect" href="https://p.typekit.net">
   <title>James Lutley - Designer/developer</title>
-  <meta name="description" content="When I set out to redesign this site and start blogging, I knew I wanted it to be a static HTML generated weblog (also commonly known as &#8220; &hellip;">
+  <meta name="description" content="So far 2012 has been a big year for me in progressing my front-end web development skills, tools and process. I&#8217;ve also been busy learning new &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="http://jameslutley.github.com/archives/page/2">
   <link href="/favicon.ico" rel="shortcut icon">
@@ -66,16 +66,16 @@
   
 
 
-<time datetime="2012-05-20T15:54:00+07:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time>
+<time datetime="2012-05-21T16:47:00+07:00" pubdate data-updated="true">May 21<span>st</span>, 2012</time>
           
 
-           | <a class="disqus-link" href="/redesign-notes-and-switching-to-octopress/#disqus_thread">Comments</a>
+           | <a class="disqus-link" href="/my-2012-front-end-web-development-workflow/#disqus_thread">Comments</a>
           
           | <a class="rss-feed" href="http://feeds.feedburner.com/jameslutley">RSS Feed</a>
         </p>
       
       
-        <h1 class="entry-title"><a href="/redesign-notes-and-switching-to-octopress/">Redesign notes and <em>switching to Octopress</em></a></h1>
+        <h1 class="entry-title"><a href="/my-2012-front-end-web-development-workflow/">My 2012 front-end <em>web development workflow</em></a></h1>
       
     </div>
   </header>
@@ -83,28 +83,50 @@
 
   <div class="entry-content">
     <div class="wrap">
-      <p>When I set out to redesign this site and start blogging, I knew I wanted it to be a static <abbr title="HyperText Markup Language">HTML</abbr> generated weblog (also commonly known as &#8220;baked&#8221;). Coming from <a href="http://wordpress.org/">Wordpress</a>, <em>this publishing workflow is a dream</em>.</p>
+      <p>So far 2012 has been a big year for me in progressing my front-end web development skills, tools and process. I&#8217;ve also been busy learning new languages and frameworks and getting up to speed on the latest advancements.</p>
 
-<p>Content, which is just static <abbr title="HyperText Markup Language">HTML</abbr>, is created in Markdown in a text editor, saved into version control (Git) and pushed to GitHub to deploy. This means no database (MySQL) — a potential security nightmare and single point of failure, no page caching (goodbye WP Super Cache and W3 Total Cache), no <abbr title="File Transfer Protocol">FTP</abbr> and <em>super fast page loads</em> &mdash; all good things.</p>
+<p>Here&#8217;s what&#8217;s changed in 2012:</p>
 
-<p>I evaluated some great systems including <a href="http://octopress.org/">Octopress</a>, <a href="http://middlemanapp.com/">Middleman</a>, <a href="http://nestacms.com/">Nesta CMS</a> and I&#8217;m keeping a close eye on <a href="http://calip.so/">Calypso</a> (built on Node.js and MongoDB), but in the end I opted for Octopress as it fitted my needs. I&#8217;m still ironing out a few kinks with Octopress, but overall I&#8217;m very pleased with how its worked out.</p>
-
-<p>Here are some notes on the thought process behind this redesign:</p>
+<h2>Languages / frameworks</h2>
 
 <ul>
-<li><em>Powered by Octopress</em> &mdash; with static <abbr title="HyperText Markup Language">HTML</abbr> offering many advantages over the traditional database and caching (especially if you get <a href="http://daringfireball.net/linked/2010/08/09/fireballed">fireballed</a>).</li>
-<li><em>Hosted on GitHub</em> &mdash; not only are their servers <em>very</em> quick it&#8217;s also free. Anyone can <a href="https://github.com/jameslutley/jameslutley.github.com/">make a pull request on GitHub to contribute to this website</a>, suggest changes or amendments.</li>
-<li><em>Speed</em> &mdash; the goal was to have this site load in one second. To make this possible, speed led all of the decisions and compromises that were made with this site.</li>
-<li><em>Page-weight</em> &mdash; the aim was to keep pages below 100k for a great mobile experience. This meant that anything that didn&#8217;t need to be there went and everything that was left was <em>heavily compressed</em>.</li>
-<li><em>HTTP requests</em> &mdash; another point critical to speed. For this reason, the basic theme for this site has no images, apart from the picture of me in the footer, but that&#8217;s been encoded in base64 and embedded into the main stylesheet.</li>
-<li><em>JavaScript</em> &mdash; minimal JavaScript, just Disqus and Google Analytics (both loaded asynchronously) plus Typekit. No jQuery.</li>
-<li><em>Mobile-first, responsive web design</em> &mdash; my previous design wasn&#8217;t responsive and that bothered me. I&#8217;ve been building almost exclusively responsive websites since the latter part of 2010 and this was not reflected in my personal website &mdash; so this was a priority.</li>
-<li><em>Design</em> &mdash; I&#8217;m a big fan of <a href="http://www.instapaper.com/">Instapaper</a>, <a href="http://www.readability.com/">Readability</a> and <a href="http://reederapp.com/">Reeder app</a>, and I wanted this great reading experience to be the default for my site.</li>
-<li><em>Typography</em> &mdash; page-weight was also the final deciding factor for the typography. I trialled dozens of serif faces before narrowing it down to three. Of these, the beautiful <a href="https://typekit.com/fonts/freight-text-pro">Freight Text Pro</a> was noticeably leaner. This became even more apparent when I added &#8216;All Characters&#8217; in Typekit, should I wish to add ligatures in the future. I even made the decision to forgo a bold weight, instead using colour to give the appearance of increased emphasis.</li>
+<li><a href="http://sass-lang.com/"><abbr title="Syntactically Awesome Stylesheets">SASS</abbr></a> / <a href="http://compass-style.org/">Compass</a> &mdash; this has <em>totally transformed the way I write <abbr title="Cascading Style Sheets">CSS</abbr></em>, and if you&#8217;re into Compass, I highly recommend the <a href="http://susy.oddbird.net/">Susy responsive grid system</a> by <a href="http://oddbird.net/">Oddbird</a> (<em>semantic grids in <abbr title="Syntactically Awesome Stylesheets">SASS</abbr> have been a game-changer for me</em>). I&#8217;m currently using the <abbr title="Sassy CSS">SCSS</abbr> flavour of <abbr title="Syntactically Awesome Stylesheets">SASS</abbr>, and when I refer to <abbr title="Syntactically Awesome Stylesheets">SASS</abbr>, I usually mean <abbr title="Sassy CSS">SCSS</abbr>. I&#8217;m aware of the whole <a href="http://css-tricks.com/sass-vs-less/"><abbr title="Syntactically Awesome Stylesheets">SASS</abbr> vs. LESS</a> debate, but I&#8217;m not going there.</li>
+<li><a href="http://git-scm.com/">Git</a> / <a href="https://github.com/">GitHub</a> &mdash; I hate to admit it, but when I first started out, I edited sites directly on the live server via <abbr title="File Transfer Protocol">FTP</abbr> without a version control system. <em>Never again!</em> There are many <a href="http://git-scm.com/documentation">great</a> <a href="http://git-scm.com/book">free</a> <a href="http://gitready.com/">resources</a> available online for learning Git.</li>
+<li><a href="http://haml.info/"><abbr title="HTML Abstraction Markup Language">HAML</abbr></a> / <a href="http://daringfireball.net/projects/markdown/">Markdown</a> &mdash; makes writing <abbr title="HyperText Markup Language">HTML</abbr> quick and enjoyable. This post was written in Markdown.</li>
+<li><a href="http://www.ruby-lang.org/en/">Ruby</a> &mdash; I&#8217;m just dipping my toes into Ruby, but I&#8217;m hoping to develop my skills in Ruby and <a href="http://rubyonrails.org/">Ruby on Rails</a> over the next year. I&#8217;ve also wanted to expand my knowledge beyond the <abbr title="Linux Apache MySQL PHP">LAMP</abbr> stack for some time.</li>
+<li><a href="http://octopress.org/">Octopress</a> &mdash; this site is powered by Octopress, which is an excellent framework designed by <a href="http://brandonmathis.com/">Brandon Mathis</a> for <a href="https://github.com/mojombo/jekyll">Jekyll</a>. When I set out to build this blog I knew I wanted a static (&#8220;baked&#8221;) site, and <a href="http://theindustry.cc/2012/03/06/2-responsive-sass-awkward-hugs/">awareness of Octopress</a> and the benefits &#8220;baked&#8221; blogs has been increasing lately.</li>
+<li>Command line &mdash; it goes without saying that the languages and frameworks listed above require some knowledge of, and being <em>comfortable in the command line</em>. This is something I&#8217;m still relatively new to, but I&#8217;m already seeing improvements in my productivity as I do more in the command line.</li>
 </ul>
 
 
-<p>There&#8217;s still some issues I&#8217;d like to address with the redesign, and as this is my personal site, I like to use it as my playground for trying out new techniques and ideas. So, it&#8217;s likely to remain in a state of flux for the foreseeable future.</p>
+<h2>Tools</h2>
+
+<ul>
+<li><a href="http://www.sublimetext.com/2">Sublime Text 2</a> &mdash; I recently switched to Sublime Text 2 for all of my text editing / coding and it&#8217;s phenomenal. I can&#8217;t recommend it highly enough. This is responsible for my single biggest jump in speed / productivity in a long time. <a href="http://opensoul.org/blog/archives/2012/01/12/getting-started-with-sublime-text-2/">Learn it</a> <a href="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/">inside out</a>, learn all the keyboard shortcuts and <a href="http://net.tutsplus.com/tutorials/tools-and-tips/essential-sublime-text-2-plugins-and-extensions/">get as many great extensions as you can</a>. Opening files in Sublime Text 2 from the command line is also a great way to speed up your workflow &mdash; it&#8217;s lightning quick.</li>
+<li><a href="https://www.google.com/chrome">Chrome</a> / <a href="https://tools.google.com/dlpage/chromesxs">Chrome Canary</a> &mdash; these days I&#8217;m mostly designing in the browser, and I&#8217;ve recently switched to Chrome and Chrome Canary as my default browsers for all development, due to the excellent <a href="https://developers.google.com/chrome-developer-tools/docs/overview">Chrome Developer Tools</a>. To get the most out of the power of Chrome&#8217;s Developer Tools, it&#8217;s worth taking the time to <a href="http://youtu.be/N8SS-rUEZPg">learn</a> <a href="http://jtaby.com/2012/04/23/modern-web-development-part-1.html">what they can do</a>, check out <a href="https://vimeo.com/40929961">some of the recent advances</a>, and install some developer extensions. For debugging or designing in the browser, you should definitely check out the amazing <a href="https://github.com/NV/chrome-devtools-autosave">Chrome DevTools Autosave</a> by <a href="http://elv1s.ru/">Nikita Vasilyev</a>. It allows you to edit <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript in Chrome&#8217;s Developer Tools and autosaves those changes to your source files (no more copy and paste).</li>
+<li><a href="http://incident57.com/codekit/">CodeKit</a> &mdash; makes running projects using <abbr title="Syntactically Awesome Stylesheets">SASS</abbr>, Compass, <abbr title="HTML Abstraction Markup Language">HAML</abbr>, <a href="http://lesscss.org/">LESS</a>, etc a breeze. It compiles everything on the fly, live reloads your browser, optimises images and a lot more.</li>
+<li><a href="http://smilesoftware.com/TextExpander/">TextExpander</a> &mdash; since I move to Sublime Text 2, I needed a new way of managing my code snippets. I&#8217;ve been trialling TextExpander, which is a great system, but I now think I&#8217;ll move all of my code snippets to <a href="https://gist.github.com/">Github Gists</a> and insert snippets into Sublime Text 2 using this brilliant <a href="https://github.com/dlazic88/Gist">Gist plugin</a>.</li>
+<li><a href="http://www.mamp.info/en/mamp-pro/">MAMP Pro</a> &mdash; an essential part of my toolkit for local development, plus it allows you to quickly setup virtual hosts, which is useful for local Windows and Internet Explorer testing on the Mac. Recently, I&#8217;ve been using this less now that I&#8217;ve started building sites in Ruby and using <a href="http://en.wikipedia.org/wiki/WEBrick">WEBrick</a>.</li>
+<li><a href="http://www.iterm2.com/">iTerm 2</a> &mdash; this is a great Terminal replacement for the Mac. I often have several different shells open at a time, and iTerm 2&#8217;s split vertical view is perfect for this.</li>
+<li><a href="http://www.vmware.com/products/fusion/overview.html">VMware Fusion</a> &mdash; for testing and debugging sites in Windows and Internet Explorer. Using MAMP Pro&#8217;s virtual hosts you can also <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an">setup a local development environment for testing on Windows</a>.</li>
+<li><a href="http://labs.adobe.com/technologies/shadow/">Adobe Shadow</a> &mdash; this website was designed exclusively in the browser (Chrome) on my MacBook Pro, but throughout the entire process the site was also open in Adobe Shadow on my iPhone 3GS and iPad 2. This has totally transformed my mobile-first, responsive web design process. <em>These devices are no longer used for testing the assumptions I&#8217;ve made in a narrow width desktop browser, they are now central to the design and development process</em>. On a side note, this really drains battery power fast, so keep all devices plugged into a power supply.</li>
+<li><a href="https://www.dropbox.com/">Dropbox</a> &mdash; this is an obvious one, but worth mentioning. Essential for syncing documents between different devices and backup of files that don&#8217;t live in version control.</li>
+</ul>
+
+
+<h2>Productivity Tools</h2>
+
+<ul>
+<li><a href="http://www.alfredapp.com/">Alfred</a> &mdash; I&#8217;m a recent convert to Alfred and I love it. Now that I&#8217;m using the command line a lot more, I find I&#8217;m using my trackpad and mouse less. Alfred allows me to launch applications, search Google and get things done quickly without leaving the keyboard.</li>
+<li><a href="http://mizage.com/divvy/">Divvy</a> &mdash; great for quick and easy window management, for example, if you have your browser and text editor open alongside each other.</li>
+</ul>
+
+
+<h2>Conclusion</h2>
+
+<p>Keeping up with the rapid change in front-end web development can be pretty challenging at times, but it can also be a lot of fun. Although it may sound like I&#8217;m using a lot of different tools in my workflow, I can pretty much get by for most development with just Chrome, Sublime Text 2, iTerm 2 and Adobe Shadow open at any one time. I&#8217;ve never been happier with my front-end development tools / process and look forward to refining this setup over the coming year.</p>
+
+<p>If anyone has any suggestions, additions, or comments, I&#8217;d love to hear from you.</p>
 
     </div>
   </div>
@@ -115,6 +137,8 @@
     </article>
   
   <div class="pagination">
+    
+      <a class="prev" href="/archives/page/3/">&laquo; Older</a>
     
     <a href="/archives">Blog Archives</a>
     

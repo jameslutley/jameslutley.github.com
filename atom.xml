@@ -4,7 +4,7 @@
   <title><![CDATA[James Lutley]]></title>
   <link href="http://jameslutley.github.com/atom.xml" rel="self"/>
   <link href="http://jameslutley.github.com/"/>
-  <updated>2015-10-25T15:45:49+07:00</updated>
+  <updated>2015-10-25T23:26:57+07:00</updated>
   <id>http://jameslutley.github.com/</id>
   <author>
     <name><![CDATA[James Lutley]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Site Design Refresh and Blog Reboot]]></title>
+    <link href="http://jameslutley.github.com/site-design-refresh-and-blog-reboot/"/>
+    <updated>2015-10-25T18:23:00+07:00</updated>
+    <id>http://jameslutley.github.com/site-design-refresh-and-blog-reboot</id>
+    <content type="html"><![CDATA[<p>A lot&rsquo;s happened since my <a href="http://jameslutley.com/my-2012-front-end-web-development-workflow/">last blog post</a> three years ago in May 2012, which partly explains the lack of updates. I moved to London, worked in Shoreditch as lead Front-end Developer at <a href="http://browserlondon.com/">Browser London</a>, went freelance switching to <a href="http://jameslutley.com/work/">Product Design</a>, got married at Lang Co Beach, travelled to five countries on honeymoon, moved to Da Nang, designed and built my dream house, and learnt Ruby on Rails.</p>
+
+<h2>Blog Reboot</h2>
+
+<p>Process has been another factor towards my lack of writing. I love using static site generators like <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://middlemanapp.com/">Middleman</a> for prototyping, but as blogging platforms they don&rsquo;t work for me. There&rsquo;s too many steps between writing and publishing &mdash; opening a terminal, running rake commands to generate a post, editing markdown files, commiting to git, and running rake build/deploy tasks. This gets in the way when all you want to do is write, and creates friction when trying to create posts on mobile devices whilst travelling (although there&rsquo;s tools like <a href="http://prose.io/#about">Prose.io</a>).</p>
+
+<p>I&rsquo;ve been tempted to reduce my site to a single page calling card and move my writing to <a href="https://medium.com/@jameslutley">Medium</a>, but that goes against the <a href="https://indiewebcamp.com/">Indie Web</a> principle of <a href="https://indiewebcamp.com/POSSE">POSSE</a> (Publish on your Own Site, Syndicate Elsewhere). With a personal website you retain control and ownership of your content. But there&rsquo;s no denying that Medium has raised the bar in terms of the writing experience on the web. I&rsquo;m currently in the process of rebuilding the back-end of this site in Ruby on Rails, and I&rsquo;m planning to use <a href="http://madebymany.com/">Made by Many</a>&rsquo;s excellent <a href="http://madebymany.github.io/sir-trevor-js/">Sir Trevor content editor</a> (see the <a href="http://madebymany.github.io/sir-trevor-js/example.html">demo</a>) for a great writing experience. This will inspire me to write more.</p>
+
+<h2>Design Refresh</h2>
+
+<p>I&rsquo;ve always thought of my personal website as a playground where I can try out new ideas free from client imposed brand guidelines, style guides, etc. The previous iteration of this site was focused mainly on typography, a great reading experience, and speed (<em>page weight was less than 90 kb including web fonts</em>). This was also one of the first website&rsquo;s using <a href="https://typekit.com/fonts/freight-text-pro">Freight Text Pro</a> as the body typeface as soon as it became available on Typekit &mdash; <a href="http://fontsinuse.com/uses/2575/medium-com-2012"><em>even beating Medium to it</em></a>!</p>
+
+<p>This time around I wanted to make the typography even richer, introducing <a href="https://typekit.com/fonts/neuzeit-grotesk">Neuzeit Grotesk</a> for headings and <a href="https://typekit.com/fonts/calluna">Calluna</a> for the body. Page weight has gone up as a result (around 280 kb), but the site is still fast and I think it&rsquo;s a good trade-off. Whilst I liked the old design, I felt that it was too safe and dare I say it, apologetic. So this time I wanted the design to be bolder, more vibrant, and more confident.</p>
+
+<h3>What&rsquo;s new:</h3>
+
+<ul>
+<li>New typography</li>
+<li>Vibrant colours</li>
+<li>Higher contrast (<em>darker text and white background</em>)</li>
+<li>Looks even better on mobile</li>
+<li>Updated <a href="http://jameslutley.com/work/">Work</a> and <a href="http://jameslutley.com/about/">About</a> pages (<em>new content and photos</em>)</li>
+<li>Updated avatar photo</li>
+</ul>
+
+
+<h2>Looking Forward</h2>
+
+<p>I&rsquo;m excited about my own little space on the internet for the first time in years and have lots of blog post ideas that I can&rsquo;t wait to share.</p>
+
+<p>Next time I won&rsquo;t leave it three years &hellip;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My 2012 front-end <em>web development workflow</em>]]></title>

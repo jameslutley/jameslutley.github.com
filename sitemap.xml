@@ -2,11 +2,15 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://jameslutley.github.com/redesign-notes-and-switching-to-octopress/</loc>
-        <lastmod>2015-10-25T13:08:35+07:00</lastmod>
+        <lastmod>2015-10-25T15:47:54+07:00</lastmod>
     </url>
     <url>
         <loc>http://jameslutley.github.com/my-2012-front-end-web-development-workflow/</loc>
-        <lastmod>2015-10-25T13:08:35+07:00</lastmod>
+        <lastmod>2015-10-25T23:17:32+07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jameslutley.github.com/site-design-refresh-and-blog-reboot/</loc>
+        <lastmod>2015-10-25T23:21:06+07:00</lastmod>
     </url>
     <url>
         <loc>http://jameslutley.github.com/404/</loc>
@@ -18,15 +22,15 @@
     </url>
     <url>
         <loc>http://jameslutley.github.com/archives/</loc>
-        <lastmod>2015-10-25T15:07:44+07:00</lastmod>
+        <lastmod>2015-10-25T23:21:06+07:00</lastmod>
     </url>
     <url>
         <loc>http://jameslutley.github.com/blog/archives/</loc>
-        <lastmod>2015-10-25T13:08:35+07:00</lastmod>
+        <lastmod>2015-10-25T23:21:06+07:00</lastmod>
     </url>
     <url>
         <loc>http://jameslutley.github.com/</loc>
-        <lastmod>2015-10-25T13:09:13+07:00</lastmod>
+        <lastmod>2015-10-25T23:21:06+07:00</lastmod>
     </url>
     <url>
         <loc>http://jameslutley.github.com/work/</loc>
