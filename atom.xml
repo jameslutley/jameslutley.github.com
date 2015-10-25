@@ -4,7 +4,7 @@
   <title><![CDATA[James Lutley]]></title>
   <link href="http://jameslutley.github.com/atom.xml" rel="self"/>
   <link href="http://jameslutley.github.com/"/>
-  <updated>2013-05-28T22:12:36+01:00</updated>
+  <updated>2015-10-25T13:54:34+07:00</updated>
   <id>http://jameslutley.github.com/</id>
   <author>
     <name><![CDATA[James Lutley]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[My 2012 front-end <em>web development workflow</em>]]></title>
     <link href="http://jameslutley.github.com/my-2012-front-end-web-development-workflow/"/>
-    <updated>2012-05-21T16:47:00+01:00</updated>
+    <updated>2012-05-21T16:47:00+07:00</updated>
     <id>http://jameslutley.github.com/my-2012-front-end-web-development-workflow</id>
     <content type="html"><![CDATA[<p>So far 2012 has been a big year for me in progressing my front-end web development skills, tools and process. I&#8217;ve also been busy learning new languages and frameworks and getting up to speed on the latest advancements.</p>
 
@@ -68,7 +68,7 @@
   <entry>
     <title type="html"><![CDATA[Redesign notes and <em>switching to Octopress</em>]]></title>
     <link href="http://jameslutley.github.com/redesign-notes-and-switching-to-octopress/"/>
-    <updated>2012-05-20T15:54:00+01:00</updated>
+    <updated>2012-05-20T15:54:00+07:00</updated>
     <id>http://jameslutley.github.com/redesign-notes-and-switching-to-octopress</id>
     <content type="html"><![CDATA[<p>When I set out to redesign this site and start blogging, I knew I wanted it to be a static <abbr title="HyperText Markup Language">HTML</abbr> generated weblog (also commonly known as &#8220;baked&#8221;). Coming from <a href="http://wordpress.org/">Wordpress</a>, <em>this publishing workflow is a dream</em>.</p>
 

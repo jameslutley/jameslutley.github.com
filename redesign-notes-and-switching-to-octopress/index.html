@@ -8,8 +8,8 @@
   <link rel="dns-prefetch" href="//disqus.com">
   <link rel="dns-prefetch" href="//mediacdn.disqus.com">
   <link rel="dns-prefetch" href="//www.gravatar.com">
-  <title>Redesign notes and switching to Octopress - James Lutley - Front-end web developer</title>
-  <meta name="description" content="When I set out to redesign this site and start blogging, I knew I wanted it to be a static HTML generated weblog (also commonly known as &#8220;baked &hellip;">
+  <title>Redesign notes and switching to Octopress - James Lutley - Designer/developer</title>
+  <meta name="description" content="When I set out to redesign this site and start blogging, I knew I wanted it to be a static HTML generated weblog (also commonly known as &#8220; &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="http://jameslutley.github.com/redesign-notes-and-switching-to-octopress">
   <link href="/favicon.ico" rel="shortcut icon">
@@ -19,14 +19,16 @@
   <link href="/stylesheets/screen.css" rel="stylesheet">
   <link href="/stylesheets/widescreen.css" rel="stylesheet" media="screen and (min-width: 45em)">
   
-  <script src="//use.typekit.net/yry3bon.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script src="https://use.typekit.net/fwb6ymx.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link href="http://feeds.feedburner.com/jameslutley" rel="alternate" title="James Lutley" type="application/atom+xml">
 </head>
 
 <body >
-  <header class="main-header" role="banner">
-        <h1><a href="/">James Lutley</a> &mdash; Front-end web developer</h1>
+  <header class="main-header main-header--bg main-header--inverted" role="banner" style="background-color: #1154e7;">
+    <div class="main-header__inner">
+      <div class="wrap">
+            <h1><a href="/">James Lutley</a> &mdash; Designer/developer</h1>
     <nav role="navigation">
       <ul class="main-nav">
   <li><a href="/">Home</a></li>
@@ -35,16 +37,18 @@
   <li><a href="/about">About</a></li>
 </ul>
     </nav>
+      </div>
+    </div>
   </header>
   <div id="main">
     <div id="content">
-      <div>
-<article class="hentry" role="article">
+      <article class="hentry" role="article">
   
-  <header>
-    
-      <p class="meta">
-        
+  <header class="article__header article__header--bg article__header--inverted" style="background-color: #1154e7;">
+    <div class="wrap">
+      
+        <p class="meta">
+          
 
 
 
@@ -56,21 +60,24 @@
   
 
 
-<time datetime="2012-05-20T15:54:00+01:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time>
-        
+<time datetime="2012-05-20T15:54:00+07:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time>
+          
 
-         | <a class="disqus-link" href="#disqus_thread">Comments</a>
-        
-        | <a class="rss-feed" href="http://feeds.feedburner.com/jameslutley">RSS Feed</a>
-      </p>
-    
-    
-      <h1 class="entry-title">Redesign notes and <em>switching to Octopress</em></h1>
-    
+           | <a class="disqus-link" href="#disqus_thread">Comments</a>
+          
+          | <a class="rss-feed" href="http://feeds.feedburner.com/jameslutley">RSS Feed</a>
+        </p>
+      
+      
+        <h1 class="entry-title">Redesign notes and <em>switching to Octopress</em></h1>
+      
+    </div>
   </header>
 
 
-<div class="entry-content"><p>When I set out to redesign this site and start blogging, I knew I wanted it to be a static <abbr title="HyperText Markup Language">HTML</abbr> generated weblog (also commonly known as &#8220;baked&#8221;). Coming from <a href="http://wordpress.org/">Wordpress</a>, <em>this publishing workflow is a dream</em>.</p>
+<div class="entry-content">
+  <div class="wrap">
+    <p>When I set out to redesign this site and start blogging, I knew I wanted it to be a static <abbr title="HyperText Markup Language">HTML</abbr> generated weblog (also commonly known as &#8220;baked&#8221;). Coming from <a href="http://wordpress.org/">Wordpress</a>, <em>this publishing workflow is a dream</em>.</p>
 
 <p>Content, which is just static <abbr title="HyperText Markup Language">HTML</abbr>, is created in Markdown in a text editor, saved into version control (Git) and pushed to GitHub to deploy. This means no database (MySQL) — a potential security nightmare and single point of failure, no page caching (goodbye WP Super Cache and W3 Total Cache), no <abbr title="File Transfer Protocol">FTP</abbr> and <em>super fast page loads</em> &mdash; all good things.</p>
 
@@ -92,17 +99,20 @@
 
 
 <p>There&#8217;s still some issues I&#8217;d like to address with the redesign, and as this is my personal site, I like to use it as my playground for trying out new techniques and ideas. So, it&#8217;s likely to remain in a state of flux for the foreseeable future.</p>
+
+  </div>
 </div>
 
 
   <footer>
-    <p class="meta">
-      
+    <div class="wrap">
+      <p class="meta">
+        
   
 
 <span class="byline author vcard">Posted by <a href="/about" class="fn">James Lutley</a></span>
  <span>on</span>
-      
+        
 
 
 
@@ -114,14 +124,14 @@
   
 
 
-<time datetime="2012-05-20T15:54:00+01:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time>.
+<time datetime="2012-05-20T15:54:00+07:00" pubdate data-updated="true">May 20<span>th</span>, 2012</time>.
+        
+
+
+        <span class="pull-request">If you would like to update this post, <a href="https://github.com/jameslutley/jameslutley.github.com/blob/source/source/_posts/2012-05-20-redesign-notes-and-switching-to-octopress.markdown"> please send a pull request</a> on GitHub.</span>
+      </p>
       
-
-
-      <span class="pull-request">If you would like to update this post, <a href="https://github.com/jameslutley/jameslutley.github.com/blob/source/source/_posts/2012-05-20-redesign-notes-and-switching-to-octopress.markdown"> please send a pull request</a> on GitHub.</span>
-    </p>
-    
-      <div class="sharing">
+        <div class="sharing">
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jameslutley.github.com/redesign-notes-and-switching-to-octopress/" data-via="jameslutley" data-counturl="http://jameslutley.github.com/redesign-notes-and-switching-to-octopress/" >Tweet</a>
   
@@ -129,44 +139,53 @@
   
 </div>
 
-    
-    <p class="meta">
       
-      
-        <a class="basic-alignment right" href="/my-2012-front-end-web-development-workflow/" title="Next Post: My 2012 front-end <em>web development workflow</em>">Next &raquo;</a>
-      
-    </p>
+      <p class="meta">
+        
+        
+          <a class="basic-alignment right" href="/my-2012-front-end-web-development-workflow/" title="Next Post: My 2012 front-end <em>web development workflow</em>">Next &raquo;</a>
+        
+      </p>
+    </div>
   </footer>
 </article>
 
   <section class="comments">
-    <h2>Comments</h2>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div class="wrap">
+      <h2>Comments</h2>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+    </div>
   </section>
 
-</div>
+
 
 <aside class="sidebar">
-  
-    <section>
-  <p class="biog"><a href="https://twitter.com/jameslutley">James Lutley</a> is a front-end web developer living in Da Nang, Vietnam <em>(soon relocating to London)</em>. <a href="/about">More about me &raquo;</a>
+  <div class="wrap">
+    
+      <section>
+  <p class="biog"><a href="https://twitter.com/jameslutley">James Lutley</a> is a digital Product Designer and Ruby on Rails developer. Remote worker. Currently living in Da Nang, Vietnam. <a href="/about">More about me</a>.
 </section>
 
-  
+    
+  </div>
 </aside>
 
 
     </div>
   </div>
-  <footer class="footer" role="contentinfo"><p>
-  &copy; 2013 James Lutley
-  <span class="credit">&mdash; Powered by <a href="http://octopress.org">Octopress</a>, fonts served by <a href="https://typekit.com/colophons/yry3bon">Typekit</a>, hosted by <a href="https://github.com/jameslutley/jameslutley.github.com/">GitHub</a>.</span>
+  <footer class="footer" role="contentinfo">
+    <div class="wrap">
+      <p>
+  &copy; 2015 James Lutley
+  <span class="credit">&mdash; Powered by <a href="http://octopress.org">Octopress</a>, fonts served by <a href="http://typekit.com/colophons/fwb6ymx">Typekit</a>, hosted by <a href="https://github.com/jameslutley/jameslutley.github.com/">GitHub</a>.</span>
 </p>
 
 <p class="top"><a href="#">Back to top &uarr;</a></p>
 
-</footer>
+
+    </div>
+  </footer>
   
 
 <script type="text/javascript">
