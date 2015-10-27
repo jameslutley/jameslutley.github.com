@@ -84,6 +84,43 @@ I&rsquo;m a passionate, creative, Product Designer, Front-end developer, and bud
 </p>
 
 
+<h2>Currently listening to</h2>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<script src="/javascripts/libs/lastfm.js"></script>
+
+
+<script src="/javascripts/libs/now-playing.js"></script>
+
+
+<script>
+    (function (document) {
+        var username = 'jameslutley';
+
+        $(document).ready(function() {
+            var api = new LastfmAPI('5f134f063744307ee6f126ac2c480fab');
+            np = new NowPlaying(api, username);
+            np.autoUpdate();
+
+            console.log( np );
+        });
+    })(document);
+</script>
+
+
+
+
+<div class="lastfm-now-playing media">
+<span id="cover"></span>
+<p class="media__body">
+<span id="artist"></span><br>
+<em id="track"></em>
+</p>
+</div>
+
+
 <h2>Contact</h2>
 
 <p>Email: <a href="mailto:james@jameslutley.com">james@jameslutley.com</a></p>
