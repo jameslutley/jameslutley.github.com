@@ -126,7 +126,7 @@ Redesign notes &hellip;">
   <footer class="footer" role="contentinfo">
     <div class="wrap">
       <p>
-  &copy; 2015 James Lutley
+  &copy; 2017 James Lutley
   <span class="credit">&mdash; Powered by <a href="http://octopress.org">Octopress</a>, fonts served by <a href="http://typekit.com/colophons/fwb6ymx">Typekit</a>, hosted by <a href="https://github.com/jameslutley/jameslutley.github.com/">GitHub</a>.</span>
 </p>
 
@@ -138,6 +138,31 @@ Redesign notes &hellip;">
   
 
 
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('h894uecti5dh');
+</script>
+<!-- End of Async Drift Code -->
+
 
   <script>
     var _gaq=[['_setAccount','UA-11308838-1'],['_trackPageview']];
@@ -145,6 +170,7 @@ Redesign notes &hellip;">
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+
 
 
 
